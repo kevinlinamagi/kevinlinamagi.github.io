@@ -11,7 +11,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  backgorund-color: DarkGray;
+  background-color: #333;
 }
 
 li {
@@ -20,14 +20,21 @@ li {
 
 li a {
   display: block;
-  padding: 8px;  
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
 </style>
 </head>
 <body>
 
 <ul>
-  <li><a href="#home">Ajalugu</a></li>
+  <li><a class="active" href="#home">Ajalugu</a></li>
   <li><a href="#news">Pildid</a></li>
   <li><a href="#contact">Hobid</a></li>
   <li><a href="#about">Saavutused</a></li>
