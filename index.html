@@ -26,18 +26,22 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not(.active) {
   background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
 }
 </style>
 </head>
 <body>
 
 <ul>
-  <li><a class="active" href="#home">Ajalugu</a></li>
-  <li><a href="#news">Pildid</a></li>
-  <li><a href="#contact">Hobid</a></li>
-  <li><a href="#about">Saavutused</a></li>
+  <li><a class="active" href="#ajalugu">Ajalugu</a></li>
+  <li><a href="#pildid">Pildid</a></li>
+  <li><a href="#hobid">Hobid</a></li>
+  <li><a href="#saavutused">Saavutused</a></li>
 </ul>
 
 </body>
